@@ -5,14 +5,12 @@
 
 // Maintenant pour afficher le resultat dans ton terminal fait php index.php (index.php est le nom de ton fichier, ça ressemble à ce que tu fais en JS avec node index.js)
 
+// function multiplyParams($a, $b)
+// {
+//     return $a * $b;
+// }
 
-
-
-
-
-
-
-
+// echo multiplyParams(3, 6);
 
 
 // ========== SOLUTION ==========
@@ -21,7 +19,7 @@
 //     return $somme;
 // }
 
-// echo calculSommeMultipliee(2, 3); // Affiche 5
+// echo calculSomme(2, 3); // Affiche 5
 
 // EXERCICE 2
 
@@ -29,16 +27,12 @@
 // Exemple : [1, 2, 3] => 1
 // La logique entre le JS et le PHP est la même. Tu peux également faire [0] pour récupérer le premier élément d'un tableau.
 
+// function findFirst($tab)
+// {
+//     return $tab[0];
+// }
 
-
-
-
-
-
-
-
-
-
+// echo findFirst([3, 6, 8]);
 
 
 // ========== SOLUTION ==========
@@ -53,11 +47,12 @@
 // Exemple : [1, 2, 3] => 3
 
 
+// function findLast($tab)
+// {
+//     return end($tab);
+// }
 
-
-
-
-
+// echo findLast([3, 6, 8]);
 
 // ========== SOLUTION ==========
 // function lastElementTab($tab) {
